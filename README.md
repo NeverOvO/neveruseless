@@ -1,6 +1,6 @@
 # neveruseless
 
-A new Flutter package.
+[pub.dev](https://pub.flutter-io.cn/packages?q=neveruseless),
 
 ## Getting Started
 
