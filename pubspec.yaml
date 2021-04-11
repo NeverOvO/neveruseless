@@ -1,8 +1,10 @@
 name: neveruseless
 description: 自用插件包
-version: 0.0.1
-authors: LaiHaibo
+version: 0.0.2
+author: LaiHaibo
 homepage: https://github.com/NeverOvO
+
+# flutter packages pub publish --server=https://pub.dartlang.org
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
