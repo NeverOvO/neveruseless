@@ -1,6 +1,6 @@
 name: neveruseless
 description: 自用插件包
-version: 0.0.3
+version: 0.0.4
 author: LaiHaibo
 homepage: https://github.com/NeverOvO/neveruseless
 
@@ -13,13 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^4.0.0
-  flutter_easyrefresh: ^2.2.0
   shared_preferences: ^2.0.5
-  bot_toast: ^4.0.1
-  date_format: ^2.0.2
-  common_utils: ^2.0.2
-  awesome_dialog: ^2.0.0-nullsafety.1
 
 dev_dependencies:
   flutter_test:
