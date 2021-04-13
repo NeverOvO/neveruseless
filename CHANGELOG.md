@@ -1,5 +1,5 @@
 ## 0.0.4
-
+明天会更新具体文档
 1 : neverBus             全局通知类代码
 2 : neverLocalStorage    本地存储类代码
 3 : neverDoubleTryOrZero 浮点类型的安全转化
