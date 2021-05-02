@@ -20,8 +20,6 @@
     
 例如下：
 
-
-    '''
     neverBus.on('ExampleNeverBusOne', (object) {
           if(mounted){
             setState(() {
@@ -29,7 +27,7 @@
             });
           }
         });
-    '''
+
 
 请放置于页面的   initState()  中。
 
@@ -42,9 +40,8 @@
     
  例如下：
  
-    '''
     neverBus.off('ExampleNeverBusOne');
-    '''
+
     
  请放置于页面的 dispose()  中
  
@@ -55,13 +52,9 @@
     neverBus.emit("自定义语句可替换勿重复");
     
  例如下:
- 
- 
-     '''
+
      neverBus.emit("ExampleNeverBusOne");
-     '''
- 
- 
+
  ## neverLocalStorage 本地化缓存工具
  
  
