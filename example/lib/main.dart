@@ -1,4 +1,5 @@
 import 'package:example/example_neverBus.dart';
+import 'package:example/example_neverFormatDate.dart';
 import 'package:flutter/material.dart';
 
 import 'aboutNever.dart';
@@ -50,6 +51,14 @@ class _MyHomePageState extends State<MyHomePage> {
             behavior: HitTestBehavior.opaque,
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new ExampleNeverLocalStorageView()),);
+            },
+          ),
+          SizedBox(height: 30,),
+          GestureDetector(
+            child: myButton("neverFormatDate 13位时间戳转字符串"),
+            behavior: HitTestBehavior.opaque,
+            onTap: (){
+              Navigator.push(context, new MaterialPageRoute(builder: (context) => new ExampleNeverFormatDateView()),);
             },
           ),
           SizedBox(height: 30,),
