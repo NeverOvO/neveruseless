@@ -2,7 +2,7 @@
 
 [pub.dev](https://pub.flutter-io.cn/packages?q=neveruseless),
 
-# 三个插件简单用法
+# 四个插件简单用法
 
 ## NeverBus，全局订阅型通知
 
@@ -82,3 +82,9 @@
 1:使用
 
     neverDoubleTryOrZero('111.11'); // 111.11 double
+
+## neverFormatDate 13位int时间戳转格式化字符串
+
+1:使用
+
+    neverFormatDate(1645961590000); // 2022-02-27 19：33：10
