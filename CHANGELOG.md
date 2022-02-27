@@ -1,7 +1,7 @@
 ## 0.0.6
 
 问题修正：
-    因shared_preferences中的platform: ^3.1.0去除了一些字段，但其未适配，所以增加了一下代码：等待修复后可以删除
+    因shared_preferences中的platform: ^3.1.0去除了一些字段，但其未适配，使用本库请增加以下代码，等待修复后可以删除：
 
     '''
     dependency_overrides:
