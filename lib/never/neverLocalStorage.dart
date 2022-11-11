@@ -7,7 +7,8 @@ neverLocalStorageWrite(String flag,String message) async{
 
 neverLocalStorageRead(String flag) async{
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  return prefs.getString(flag);
+  var readData = prefs.getString(flag);
+  return readData.toString();
 }
 
 neverLocalStorageRemove(String flag) async{
